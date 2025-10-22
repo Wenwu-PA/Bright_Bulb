@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0" version="28.2.7">
+  <diagram name="Страница — 1" id="nwemDRQvqju5biurlWOm">
+    <mxGraphModel dx="2492" dy="959" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="g0Tgf_VHM0Su9fMyxJNL-4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="g0Tgf_VHM0Su9fMyxJNL-1" target="g0Tgf_VHM0Su9fMyxJNL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g0Tgf_VHM0Su9fMyxJNL-1" value="НАЧАЛО" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g0Tgf_VHM0Su9fMyxJNL-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="g0Tgf_VHM0Su9fMyxJNL-2" target="g0Tgf_VHM0Su9fMyxJNL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g0Tgf_VHM0Su9fMyxJNL-2" value="Подается число" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g0Tgf_VHM0Su9fMyxJNL-8" value="нет" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g0Tgf_VHM0Su9fMyxJNL-5" target="g0Tgf_VHM0Su9fMyxJNL-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g0Tgf_VHM0Su9fMyxJNL-16" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="g0Tgf_VHM0Su9fMyxJNL-5" target="g0Tgf_VHM0Su9fMyxJNL-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g0Tgf_VHM0Su9fMyxJNL-5" value="&lt;div&gt;число оканчивается на&lt;/div&gt;&lt;div&gt;&amp;nbsp;1?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="220" width="200" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="g0Tgf_VHM0Su9fMyxJNL-18" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="g0Tgf_VHM0Su9fMyxJNL-9" target="g0Tgf_VHM0Su9fMyxJNL-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g0Tgf_VHM0Su9fMyxJNL-20" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="g0Tgf_VHM0Su9fMyxJNL-9" target="g0Tgf_VHM0Su9fMyxJNL-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g0Tgf_VHM0Su9fMyxJNL-9" value="&lt;br&gt;&lt;div&gt;число оканчивается на&lt;/div&gt;&lt;div&gt;&amp;nbsp;2 =&amp;gt; x &amp;lt;= 4&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="275" width="210" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="g0Tgf_VHM0Su9fMyxJNL-15" value="Ответ = &quot;день&quot;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="285" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g0Tgf_VHM0Su9fMyxJNL-22" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="g0Tgf_VHM0Su9fMyxJNL-17" target="g0Tgf_VHM0Su9fMyxJNL-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g0Tgf_VHM0Su9fMyxJNL-17" value="&lt;div&gt;число оканчивается на&lt;/div&gt;&lt;div&gt;&amp;nbsp;5 =&amp;gt; x &amp;lt;=9?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="440" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="g0Tgf_VHM0Su9fMyxJNL-19" value="Ответ = &quot;дня&quot;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-25" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g0Tgf_VHM0Su9fMyxJNL-24" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="g0Tgf_VHM0Su9fMyxJNL-21" target="g0Tgf_VHM0Su9fMyxJNL-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g0Tgf_VHM0Su9fMyxJNL-21" value="Ответ = &quot;дней&quot;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g0Tgf_VHM0Su9fMyxJNL-23" value="&lt;div&gt;конец&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
