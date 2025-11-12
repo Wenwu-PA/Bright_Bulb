@@ -3,6 +3,8 @@ import tkinter as tk
 from dataclasses import dataclass
 from lesson6.oop_basics import Position, Vector
 
+SPEED = 100
+
 
 @dataclass
 class Config:
@@ -31,9 +33,10 @@ class Snake:
         self._position += direction
 
 
-def actions(snake: Snake, canvas: tk.Canvas):
+def actions(window, snake: Snake, canvas: tk.Canvas):
     snake.move()
     snake.draw(on=canvas)
+    window.after(SPEED, actions, window, snake, canvas)
 
 
 def main(config: Config):
@@ -46,12 +49,11 @@ def main(config: Config):
     )
 
     snake = Snake(Position(config.window_width // 2, config.window_height // 2), config)
-    
-    actions(snake, canvas)
-    
+
+    actions(window, snake, canvas)
+
     canvas.pack()
     window.mainloop()
-    window.after(1000, actions, snake, canvas)
 
 
 if __name__ == '__main__':
